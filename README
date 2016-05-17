@@ -1,0 +1,5 @@
+This is a project I am working on to familiarize myself with Google Maps Directions API. Using the Python library `googlemaps`, I am trying to create a simplified version of Google Maps directions, which uses only "transit" mode, and navigates from/to an address (hard-coded test addresses loaded for now; will be replaced later with option for user input once the program is running). 
+
+The final version will give each step in the directions on a separate line, with the necessary/important information regarding each step.
+
+Note: The python file requires a `gmdir.dat` to run. The first line of the .dat file contains the Google Maps Directions API key, and the second line (for now) contains the start address. In the future, this will likely only contain the API key. It is, understandably, not included as part of this repo.
